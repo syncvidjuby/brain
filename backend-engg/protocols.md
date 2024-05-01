@@ -1,8 +1,0 @@
-# SOLID
-    -   Object Oriented priciples to write readable, mainatanable and clean code
-
-* Single Responsibility Principle - The single responsibility principle (SRP) states that every class or module in a program should have responsibility for just a single piece of that program's functionality. Further, the elements of that responsibility should be encapsulated by the responsible class rather than spread out in unrelated classes.
-* Open Closed Principle - Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
-* Liskov Substitution principle - The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass and should not reduce the functionality of superclass.
-* Interface Segregation principle - The Interface Segregation Principle (ISP) states that a client should not be exposed to methods it doesn’t need. Interfaces should be segregated so that implementation classes doesnt have unsupported methods implemented.
-* Dependency Inversion Principle - create instances of dependencies first and latter instance of a class (optionally injecting them through constructor), instead of creating an instance of the class first and then the class instance creating instances of dependencies.
