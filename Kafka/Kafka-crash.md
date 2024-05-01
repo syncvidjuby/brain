@@ -8,7 +8,7 @@
 ![img.png](img/queueVsPubSub.png)
 * For Queue, have only one consumer group
   * A consumer within consumer group can subscribe to multiple partitions
-    ![img.png](img/single-consumer.png)
+    ![img.png](img/single-Consumer.png)
   * But a partition can be consumed only by one consumer within a consumer group
     ![img.png](img/multiple-consumers.png)
   * Allocation of partitions to consumer within consumer group is taken care by Kafka framework
